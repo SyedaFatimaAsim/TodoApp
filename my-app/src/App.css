@@ -1,0 +1,74 @@
+.app {
+  font-family: Arial, sans-serif;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  text-align: center;
+}
+
+.input-container {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.input-container input {
+  flex: 1;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+}
+
+.input-container button {
+  padding: 8px 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 0 5px 5px 0;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+.todo-list {
+  margin-top: 10px;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.todo-item span {
+  flex: 1;
+}
+
+.button-container button {
+  margin-left: 5px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.delete-all-btn {
+  margin-top: 10px;
+  width: 100%;
+  padding: 8px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
